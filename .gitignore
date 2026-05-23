@@ -1,0 +1,39 @@
+# Local dependencies and generated state
+node_modules/
+tools/circuitjs-local/node_modules/
+tools/circuitjs-local/test-artifacts/
+tools/circuitjs-local/server-*.out
+tools/circuitjs-local/server-*.err
+tools/circuitjs-local/circuitjs106/
+tools/circuitjs1/
+
+# Vendor simulator bundles kept locally, not in the portfolio repo
+tools/digital/
+start-digital*.cmd
+*.zip
+*.7z
+
+# Heavy or unrelated course/reference material
+Group5_BaoCaoNhapMonAI/
+prompt/
+Digital Electronics_Full_May15.pdf
+TTL_IC_Databook.pdf
+Topics 2026.pdf
+74*.pdf
+CD4049.pdf
+
+# Release-only artifacts
+Moodle_Submission/*.mp4
+*.docx
+
+# Local screenshots superseded by curated assets
+Screenshot *.png
+circuit-*.png
+hinhbaocao/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,13 @@
+*.md text eol=lf
+*.txt text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.cmd text eol=crlf
+*.svg text eol=lf
+*.png binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.mp4 binary
+*.docx binary
