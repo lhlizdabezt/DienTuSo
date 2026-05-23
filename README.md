@@ -12,6 +12,16 @@
 </p>
 
 <p align="center">
+  <strong>Liên kết review nhanh:</strong>
+  <a href="https://github.com/lhlizdabezt/DienTuSo">Repo</a> ·
+  <a href="https://github.com/lhlizdabezt/DienTuSo/releases/latest">Release mới nhất</a> ·
+  <a href="https://github.com/lhlizdabezt/DienTuSo/tags">Tags</a> ·
+  <a href="https://github.com/lhlizdabezt/DienTuSo/issues">Issues</a> ·
+  <a href="https://github.com/lhlizdabezt">GitHub portfolio</a> ·
+  <a href="https://www.linkedin.com/in/lhlizdabezt">LinkedIn</a>
+</p>
+
+<p align="center">
   <img src="assets/roundabout-motion.gif" alt="GIF mô phỏng 12 trạng thái đèn giao thông vòng xoay" width="820">
 </p>
 
@@ -20,6 +30,8 @@
 Đây là project Điện tử số mô phỏng bộ điều khiển đèn giao thông cho vòng xoay 4 hướng. Thiết kế dùng chu kỳ 12 trạng thái, bộ đếm mod-12, flip-flop JK, cổng logic tổ hợp, chế độ khẩn cấp toàn đỏ và chế độ ban đêm nháy vàng. Mạch được dựng bằng Falstad/CircuitJS, có script kiểm thử logic bằng Node.js và có video demo trong GitHub Release.
 
 Project được đóng gói theo hướng reviewer có thể đọc nhanh: sơ đồ mô phỏng, bảng trạng thái, script kiểm thử, ảnh/GIF minh họa và release asset tách riêng cho video/report.
+
+Trong portfolio kỹ thuật của tôi, repo này đóng vai trò bằng chứng nền tảng cho **logic tuần tự, bộ đếm, flip-flop, mô phỏng mạch số và kiểm thử bằng script**. Nó bổ trợ cho các repo chính về thị giác máy tính, AI/ML, mạng máy tính/truyền thông, FPGA/SoC và hệ thống nhúng bằng cách cho thấy phần nền logic số được trình bày rõ ràng, có thể chạy lại và có artifact release.
 
 ## Điểm nổi bật kỹ thuật
 
@@ -33,6 +45,25 @@ Project được đóng gói theo hướng reviewer có thể đọc nhanh: sơ 
 | Chế độ ban đêm | Tất cả hướng nháy vàng theo xung clock |
 | Mô phỏng | Falstad/CircuitJS local, import được bằng file text |
 | Kiểm thử | `verify-roundabout-logic.js` kiểm tra 12 trạng thái, emergency và night mode |
+
+## Vai trò trong portfolio
+
+| Góc nhìn reviewer | Repo này chứng minh gì |
+|---|---|
+| HR / tuyển dụng kỹ thuật | Có project học phần được đóng gói sạch: README, release, tag, topics, GIF, video, report và source snapshot |
+| Kỹ sư digital logic | Có mô hình tuần tự rõ ràng với bộ đếm mod-12, flip-flop JK, giải mã trạng thái và chế độ ưu tiên |
+| Kỹ sư kiểm thử | Có script Node.js kiểm tra chu kỳ bình thường, chế độ khẩn cấp và chế độ ban đêm |
+| Người xem portfolio | Có thể mở mô phỏng, xem motion GIF, tải release asset và đối chiếu bảng trạng thái ngay trong README |
+
+## Liên kết kiểm tra nhanh
+
+| Hạng mục | Đường dẫn |
+|---|---|
+| Repo GitHub | [lhlizdabezt/DienTuSo](https://github.com/lhlizdabezt/DienTuSo) |
+| Release mới nhất | [DienTuSo releases/latest](https://github.com/lhlizdabezt/DienTuSo/releases/latest) |
+| Tags | [DienTuSo tags](https://github.com/lhlizdabezt/DienTuSo/tags) |
+| Topics/About | [Trang repo GitHub](https://github.com/lhlizdabezt/DienTuSo) |
+| Profile portfolio | [github.com/lhlizdabezt](https://github.com/lhlizdabezt) |
 
 ## Logic vận hành
 
