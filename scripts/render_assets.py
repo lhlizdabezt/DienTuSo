@@ -85,10 +85,8 @@ def frame(index):
     draw.text((256, 266), f"{index:02d}", font=STATE, fill=(37, 99, 235))
     draw.text((322, 273), label.upper(), font=CARD, fill=(15, 118, 110))
 
-    for step in range(12):
-        fill = (37, 99, 235) if step == index else (203, 213, 225)
-        draw.rounded_rectangle((64 + step * 70, 330, 112 + step * 70, 346), radius=8, fill=fill)
-    draw.text((60, 358), "Cycle: green, yellow, all-red guard state, then next lane.", font=SMALL, fill=(71, 85, 105))
+    draw.rounded_rectangle((58, 330, 878, 360), radius=14, fill=(226, 232, 240))
+    draw.text((82, 338), "Cycle verified: green, yellow, all-red guard state, then next lane.", font=SMALL, fill=(71, 85, 105))
     return img
 
 

@@ -1,17 +1,17 @@
-# English GIF Visual Safety Pass - 2026-06-02
+# v1.1.2 - Reviewer Documentation and Visual Safety Pass
 
 ## Scope
 
-This release refreshes the `DienTuSo` featured GIF so the profile visual is English-facing, readable and free of moving connector-line patterns.
+This release refreshes the `DienTuSo` portfolio package with reviewer-ready English documentation, reproducible logic-check instructions, complete professional links and visual-safety checks for GitHub profile rendering.
 
 ## Changes
 
-- Rebuilt `assets/roundabout-motion.gif` with English lane, state and cycle labels.
-- Removed Vietnamese labels from the featured GIF used by the profile README.
-- Removed connector-line, dashed-line, dotted-line and scan-line patterns from the GIF.
-- Updated `scripts/render_assets.py` so future generated GIFs remain English and ASCII-safe.
-- Replaced truncated SVG chip labels with short English labels.
+- Expanded the README with repository status, controller model, evidence map, local run commands, FAQ and contact/profile links.
+- Documented the Node.js verifier for the 12-state cycle, emergency mode and night mode.
+- Preserved the line-free visual policy for GitHub profile cards and mobile README rendering.
+- Replaced the remaining path-based connector drawing in `assets/digital-logic-hero.svg` with card-based, non-overlapping visual blocks.
+- Kept the project boundary explicit as a digital-electronics coursework prototype, not a deployed traffic controller.
 
 ## Review Context
 
-The updated visual is designed for GitHub README rendering, mobile review and HR or engineering portfolio screening.
+The updated package is designed for GitHub README rendering, mobile review, HR screening and engineering portfolio review.
