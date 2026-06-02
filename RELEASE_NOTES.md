@@ -1,17 +1,18 @@
-# English Portfolio Refresh
-
-## Main updates
-
-- Rewrote the public README in English for HR and engineering review.
-- Standardized the repository summary, reviewer map, evidence highlights, scope boundaries and release/tag links.
-- Preserved an evidence-first tone: clear technical nouns, bounded claims and no production ownership beyond the repository material.
-
-## Repository evidence
-
-- Mod-12 counter and JK flip-flop state machine.
-- State decoding for multi-direction traffic-light behaviour.
-- Falstad/CircuitJS simulation evidence and Node.js logic tests.
+# English Visual Portfolio Refresh - 2026-06-02
 
 ## Scope
 
-Coursework prototype for digital-electronics review. It demonstrates logic design and simulation discipline, not a field-deployed traffic controller.
+This refresh keeps `DienTuSo` aligned with an English-facing engineering portfolio for HR and technical review.
+
+## Changes
+
+- Added an ASCII-safe animated SVG visual under `assets/portfolio-motion.svg`.
+- Embedded the visual in `README.md` for immediate GitHub rendering.
+- Standardized Markdown and binary asset handling through `.gitattributes`.
+- Kept the repository description evidence-first and scoped to: Digital logic coursework project.
+
+## Review Context
+
+Primary stack: JK flip-flops, mod-12 counter, Falstad, CircuitJS, JavaScript, Node.js tests.
+
+The repository remains bounded to its real artifacts and does not claim production ownership beyond what the source tree, reports, code or release assets can support.
