@@ -1,5 +1,8 @@
 # Local dependencies and generated state
 node_modules/
+__pycache__/
+build/
+tmp/
 tools/circuitjs-local/node_modules/
 tools/circuitjs-local/test-artifacts/
 tools/circuitjs-local/server-*.out
@@ -9,6 +12,7 @@ tools/circuitjs1/
 
 # Vendor simulator bundles kept locally, not in the portfolio repo
 tools/digital/
+tools/cirCeTZ/
 start-digital*.cmd
 *.zip
 *.7z
@@ -16,6 +20,10 @@ start-digital*.cmd
 # Heavy or unrelated course/reference material
 Group5_BaoCaoNhapMonAI/
 prompt/
+Data sheet-*/
+OnTap_CuoiKy_DienTuSo_2026/
+Quiz5/
+HinhAnhBaiTap/
 Digital Electronics_Full_May15.pdf
 TTL_IC_Databook.pdf
 Topics 2026.pdf
@@ -23,13 +31,41 @@ Topics 2026.pdf
 CD4049.pdf
 
 # Release-only artifacts
+25DTV_DKD3_22207056_24207030_RoundaboutTrafficLightController_Seminar_Submission/
+25DTV_DKD3_22207056_24207030_RoundaboutTrafficLightController_VideoNarration.md
 Moodle_Submission/*.mp4
 *.docx
+*.pptx
+Final review.pdf
+FINAL_EXAM.pdf
+Problems *.pdf
+ch*-Problem.pdf
+ch* -Problem.pdf
+ch* - Problem.pdf
+Chapter*_Problem_LuongHaiLong_22207056.pdf
+Chapter*_Problem_LuongHaiLong_22207056.typ
+digital_problem_report_style.typ
+ch*_Problem.pdf
 
 # Local screenshots superseded by curated assets
 Screenshot *.png
 circuit-*.png
 hinhbaocao/
+HinhAnhMachCung/
+_new_circuit_captures/
+assets/new_sources/
+assets/report_figures/
+22d1f4ac-b859-4343-b9f6-a791456721ed.jpg
+roundabout_traffic_light_controller_part-*.png
+roundabout_traffic_light_controller_circetz_*.png
+roundabout_traffic_light_controller_circetz_*.typ
+circuitjs-*.txt
+
+# Internal authoring helpers that depend on untracked source material
+scripts/build_roundabout_report.js
+scripts/build_video_narration.js
+scripts/crop_new_circuit_captures.py
+scripts/crop_reference_figures.py
 
 # OS/editor noise
 .DS_Store

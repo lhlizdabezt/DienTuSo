@@ -1,72 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
-  <title id="title">Digital Logic Roundabout Controller</title>
-  <desc id="desc">Line-free English SVG card for the roundabout traffic-light controller.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Roundabout traffic-light controller project banner">
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#111827"/>
-      <stop offset="0.50" stop-color="#172554"/>
-      <stop offset="1" stop-color="#064e3b"/>
+      <stop offset="0" stop-color="#071827"/>
+      <stop offset="0.52" stop-color="#0b2942"/>
+      <stop offset="1" stop-color="#0c4a4e"/>
     </linearGradient>
-    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.28"/>
-    </filter>
     <style>
-      .title{font:700 52px Arial, sans-serif;fill:#f8fafc}
-      .sub{font:400 22px Arial, sans-serif;fill:#d1d5db}
-      .tag{font:700 18px Arial, sans-serif;fill:#0f172a}
-      .small{font:600 15px Arial, sans-serif;fill:#dbeafe}
-      .label{font:700 15px Arial, sans-serif;fill:#f8fafc}
-      .muted{font:400 14px Arial, sans-serif;fill:#cbd5e1}
-      .chip{font:700 17px Arial, sans-serif;fill:#0f172a}
+      .eyebrow{font:700 16px Arial, sans-serif;letter-spacing:2px;fill:#67e8f9}
+      .title{font:700 48px Arial, sans-serif;fill:#f8fafc}
+      .sub{font:400 21px Arial, sans-serif;fill:#cbd5e1}
+      .card-title{font:700 17px Arial, sans-serif;fill:#f8fafc}
+      .card-copy{font:400 15px Arial, sans-serif;fill:#cbd5e1}
+      .pill{font:700 14px Arial, sans-serif;fill:#e2e8f0}
+      .small{font:600 14px Arial, sans-serif;fill:#bae6fd}
     </style>
   </defs>
   <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
-  <rect x="36" y="32" width="1212" height="356" rx="28" fill="#020617" opacity="0.28"/>
-
-  <g filter="url(#soft)">
-    <rect x="58" y="54" width="520" height="312" rx="26" fill="#f8fafc" opacity="0.98"/>
-    <text x="94" y="116" class="tag">ROUNDABOUT TRAFFIC LIGHT</text>
-    <text x="94" y="168" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#111827">Mod-12 Logic</text>
-    <text x="94" y="208" font-family="Arial, sans-serif" font-size="22" fill="#334155">Counter state, decoder logic and lamp outputs</text>
-    <g transform="translate(94 252)">
-      <rect width="112" height="42" rx="21" fill="#fee2e2"/><text x="24" y="27" class="tag">RESET</text>
-      <rect x="130" width="150" height="42" rx="21" fill="#fef3c7"/><text x="155" y="27" class="tag">NIGHT</text>
-      <rect x="300" width="168" height="42" rx="21" fill="#dcfce7"/><text x="326" y="27" class="tag">NORMAL</text>
-    </g>
-    <text x="94" y="330" font-family="Arial, sans-serif" font-size="17" fill="#475569">Academic simulation package with Node.js logic checks</text>
+  <rect x="52" y="42" width="1176" height="336" rx="24" fill="#020617" opacity="0.34" stroke="#38bdf8" stroke-opacity="0.30"/>
+  <text x="88" y="88" class="eyebrow">DIGITAL ELECTRONICS | ETC00002</text>
+  <text x="88" y="146" class="title">Roundabout Traffic-Light Controller</text>
+  <text x="88" y="184" class="sub">Ten-state gate-level sequencing for paired approaches A/C and B/D</text>
+  <g transform="translate(88 218)">
+    <rect width="318" height="84" rx="16" fill="#0f2940" stroke="#38bdf8" stroke-opacity="0.48"/>
+    <text x="22" y="32" class="card-title">CLOCK CONTROL</text>
+    <text x="22" y="58" class="card-copy">NE555 oscillator and manual step</text>
+    <rect x="338" width="318" height="84" rx="16" fill="#0f2940" stroke="#38bdf8" stroke-opacity="0.48"/>
+    <text x="360" y="32" class="card-title">JK STATE COUNTER</text>
+    <text x="360" y="58" class="card-copy">Four flip-flops and ten valid states</text>
+    <rect x="676" width="318" height="84" rx="16" fill="#0f2940" stroke="#38bdf8" stroke-opacity="0.48"/>
+    <text x="698" y="32" class="card-title">OUTPUT DECODER</text>
+    <text x="698" y="58" class="card-copy">Mutually exclusive green phases</text>
   </g>
-
-  <g transform="translate(650 62)">
-    <text x="0" y="26" class="title">Digital Logic Controller</text>
-    <text x="2" y="66" class="sub">CircuitJS simulation with repeatable state verification</text>
-    <rect x="8" y="106" width="500" height="190" rx="22" fill="#020617" opacity="0.58" stroke="#38bdf8" stroke-opacity="0.55"/>
-
-    <g transform="translate(34 128)">
-      <rect x="0" y="0" width="108" height="118" rx="18" fill="#1e293b" stroke="#e5e7eb"/>
-      <text x="28" y="38" class="label">CLK</text>
-      <text x="22" y="70" class="muted">tick input</text>
-    </g>
-    <g transform="translate(164 128)">
-      <rect x="0" y="0" width="120" height="118" rx="18" fill="#1e3a8a" stroke="#93c5fd"/>
-      <text x="24" y="38" class="label">COUNT</text>
-      <text x="27" y="70" class="muted">0 to 11</text>
-    </g>
-    <g transform="translate(306 128)">
-      <rect x="0" y="0" width="120" height="118" rx="18" fill="#14532d" stroke="#86efac"/>
-      <text x="22" y="38" class="label">DECODE</text>
-      <text x="22" y="70" class="muted">lane state</text>
-    </g>
-    <g transform="translate(448 132)">
-      <rect x="0" y="0" width="48" height="110" rx="20" fill="#111827" stroke="#94a3b8"/>
-      <circle cx="24" cy="24" r="12" fill="#ef4444"/>
-      <circle cx="24" cy="55" r="12" fill="#facc15"/>
-      <circle cx="24" cy="86" r="12" fill="#22c55e"/>
-    </g>
-    <text x="26" y="274" class="muted">Normal cycle includes green, yellow and all-red guard states.</text>
-
-    <g transform="translate(8 304)">
-      <rect width="470" height="34" rx="17" fill="#f8fafc" opacity="0.14"/>
-      <text x="20" y="22" class="small">HCMUS FETEL  Digital Electronics  Luong Hai Long  22207056</text>
-    </g>
+  <g transform="translate(88 326)">
+    <rect width="180" height="30" rx="15" fill="#164e63"/>
+    <text x="22" y="20" class="pill">AUTO / MANUAL</text>
+    <rect x="196" width="118" height="30" rx="15" fill="#164e63"/>
+    <text x="222" y="20" class="pill">FALSTAD</text>
+    <rect x="330" width="140" height="30" rx="15" fill="#164e63"/>
+    <text x="355" y="20" class="pill">BREADBOARD</text>
+    <text x="676" y="20" class="small">HCMUS FETEL | Class 25DTV_DKD3 | Academic year 2025-2026</text>
   </g>
 </svg>
